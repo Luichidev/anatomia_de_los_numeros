@@ -138,9 +138,9 @@ function numbers_anatomy($min, $max){
     $numDiv = has_divisibles($i);
     $length = count($numDiv);
     if($length > 0)
-      $result .= "<p>El <strong>{$i}</strong> es divisible" . print_divisibles($numDiv) . "</p>\n";
+      $result .= "<p>El <strong class=\"blue\">{$i}</strong> es divisible" . print_divisibles($numDiv) . "</p>\n";
     else 
-      $result .= "<p>El <strong>{$i}</strong> es un <strong>número primo.</strong></p>\n";
+      $result .= "<p>El <strong class=\"blue\">{$i}</strong> es un <strong class=\"red\">número primo.</strong></p>\n";
     
   }
 
