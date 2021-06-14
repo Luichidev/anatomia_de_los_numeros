@@ -38,7 +38,6 @@ h1 {
   color: inherit;
   width: 100%;
 }
-
 #menu li:hover,
 .active {
   color: white;
@@ -49,6 +48,7 @@ h1 {
   text-align: center;
   color: white;
 }
+/********FIN ESTILOS DEL MENU*******/
 footer,
 h1 {
   background-color: var(--bannerColor);
@@ -61,6 +61,13 @@ h1 {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.red {
+  color: red;
+}
+.blue {
+  color: #4f73e9;
 }
 
 /*******ESTILOS DEL PAPEL*******/
